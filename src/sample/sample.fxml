@@ -77,7 +77,10 @@
 </VBox>
       <ScrollPane layoutX="344.0" layoutY="10.0" prefHeight="430.0" prefWidth="150.0">
          <content>
-            <Text fx:id="memoryTextPanel" />
+            <Text fx:id="memoryTextPanel">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
          </content></ScrollPane>
     </children>
 </Pane>
